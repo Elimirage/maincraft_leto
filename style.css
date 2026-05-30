@@ -42,7 +42,8 @@ a {
 }
 
 .hero {
-  min-height: 430px;
+  min-height: 620px;
+  padding-bottom: 80px;
   padding: 24px;
   background:
     linear-gradient(135deg, rgba(36, 6, 79, 0.96), rgba(108, 52, 224, 0.92)),
@@ -244,7 +245,7 @@ h1 span {
 main {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 44px 0 64px;
+  padding: 44px 0 56px;
 }
 
 .intro {
