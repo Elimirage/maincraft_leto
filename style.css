@@ -42,7 +42,7 @@ a {
 }
 
 .hero {
-  min-height: 560px;
+  min-height: 430px;
   padding: 24px;
   background:
     linear-gradient(135deg, rgba(36, 6, 79, 0.96), rgba(108, 52, 224, 0.92)),
