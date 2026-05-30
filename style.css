@@ -42,7 +42,7 @@ a {
 }
 
 .hero {
-  min-height: 620px;
+  min-height: 560px;
   padding: 24px;
   background:
     linear-gradient(135deg, rgba(36, 6, 79, 0.96), rgba(108, 52, 224, 0.92)),
@@ -128,7 +128,7 @@ body.teacher-mode .teacher-status {
 
 .hero-inner {
   width: min(1180px, 100%);
-  margin: 80px auto 0;
+  margin: 58px auto 0;
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   gap: 36px;
@@ -175,6 +175,7 @@ h1 span {
   gap: 12px;
   flex-wrap: wrap;
   margin-top: 28px;
+  margin-bottom: 18px;
 }
 
 .btn {
@@ -243,11 +244,11 @@ h1 span {
 main {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 36px 0 64px;
+  padding: 44px 0 64px;
 }
 
 .intro {
-  margin-top: -80px;
+  margin-top: 0;
   position: relative;
   z-index: 3;
   background: linear-gradient(135deg, #fff8cf, #f4e8ff);
@@ -590,6 +591,6 @@ footer {
   }
 
   .intro {
-    margin-top: -30px;
+    margin-top: 0;
   }
 }
