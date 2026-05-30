@@ -1,23 +1,91 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Агентство СМАРТ</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Детективное агентство СМАРТ</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header class="hero">
-<h1>🕵️ Агентство СМАРТ</h1>
-<p>Minecraft • Нейросети • Кибербезопасность</p>
-<button id="teacherBtn">👩‍🏫 Войти как учитель</button>
-</header>
+  <div class="topbar">
+    <button class="button yellow small teacher-login-btn" id="openLogin">👩‍🏫 Войти как учитель</button>
+    <button class="button secondary small" id="logout" style="display:none;">Выйти</button>
+    <span id="teacherStatus">👩‍🏫 Режим учителя включён</span>
+  </div>
 
-<main>
-<h2>Дни 6–10</h2>
-<div id="days"></div>
-</main>
+  <header class="container">
+    <section class="hero">
+      <span class="floating f1">⭐</span>
+      <span class="floating f2">🧊</span>
+      <span class="floating f3">✨</span>
 
-<script src="script.js"></script>
+      <div class="hero-content">
+        <div class="eyebrow">🕵️ Minecraft · нейросети · кибербезопасность</div>
+        <h1>Агентство <span class="yellow-text">СМАРТ</span></h1>
+        <p class="lead">
+          Стань агентом цифрового расследования: проходи уроки, скачивай Minecraft-карты,
+          выполняй тесты и раскрывай тайны сети вместе с ИИ-помощником.
+        </p>
+        <div class="hero-actions">
+          <a class="button yellow" href="#days">🚀 Начать миссию</a>
+          <a class="button secondary" href="#mission">🏆 Миссия агента</a>
+        </div>
+      </div>
+
+      <div class="hero-stickers" aria-hidden="true">
+        <div class="sticker">⛏️</div>
+        <div class="sticker">🤖</div>
+        <div class="sticker">🔍</div>
+        <div class="sticker">🛡️</div>
+      </div>
+    </section>
+  </header>
+
+  <main class="container" id="days">
+    <div class="section-title">
+      <div>
+        <h2>⭐ Программа интенсива · дни 6–10</h2>
+        <p class="note">
+          Каждый день состоит из двух уроков. У ребёнка открыты урок, карта и тест.
+          Методички и презентации появляются только после входа учителя.
+        </p>
+      </div>
+    </div>
+
+    <section class="days-list" id="dayGrid"></section>
+
+    <section class="mission-card" id="mission">
+      <div>
+        <h2>🏆 Твоя миссия</h2>
+        <p class="note">
+          Проходи уроки, выполняй задания, собирай цифровые улики и становись настоящим агентом СМАРТ.
+          ИИ здесь не отдельная тема, а помощник в расследовании и защите Minecraft‑мира.
+        </p>
+      </div>
+      <div class="mission-emoji">🕵️‍♀️🤖</div>
+    </section>
+  </main>
+
+  <dialog id="loginDialog">
+    <form class="modal" method="dialog" id="loginForm">
+      <h2>👩‍🏫 Вход для учителя</h2>
+      <p class="note">Введите данные доступа, которые выдали организаторы.</p>
+      <label for="login">Логин</label>
+      <input id="login" autocomplete="username" />
+      <label for="password">Пароль</label>
+      <input id="password" type="password" autocomplete="current-password" />
+      <div class="error" id="loginError">Неверный логин или пароль</div>
+      <div class="modal-actions">
+        <button class="button secondary" value="cancel" type="button" id="closeLogin">Отмена</button>
+        <button class="button yellow" type="submit">Войти</button>
+      </div>
+    </form>
+  </dialog>
+
+  <footer>
+    © Интенсивы · Детективное агентство «СМАРТ»
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
