@@ -28,7 +28,7 @@ const days = [
         description: "Вводная миссия: дети становятся агентами, знакомятся с сюжетом, правилами и первой Minecraft-картой.",
         lessonLink: "#",
         maps: [
-          { name: "Детективное агенство", link: "https://back.ominds.online/CourseLesson/ToTask?taskId=27178&target=demo" },
+          { name: "Детективное агенство - Карта", link: "https://drive.google.com/file/d/1BrbanYwaZpnoPsZVsQRruoxSObSyrCDE/view?usp=sharing" },
           { name: "Генерация презентаций - Gamma", link: "https://gamma.app/ru" },
           { name: "Генерация текста - Qwen", link: "https://qwen.ai/" },
           { name: "Генерация картинок - Raphael AI", link: "https://raphael.app/ru" }
