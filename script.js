@@ -45,12 +45,13 @@ const days = [
         description: "Расследуем, как устройства соединяются между собой, что такое сеть и почему серверы похожи на узлы Minecraft-мира.",
        
         maps: [
-          { name: "Интернет", link: "#" }
+          { name: "Карта - Интернет", link: "https://drive.google.com/file/d/1tqA2pJGzE9RJ5xkyP3A5TsoVrMJhAWMj/view?usp=drive_link" },
+          { name: "Карта - Создаем диораму", link: "https://drive.google.com/file/d/1_EtN7_AtPDXAQZgfmPM_hFPNK2h72grs/view?usp=drive_link" }
         ],
         testLink: "#",
-        teacherMethod: "#",
-        teacherPresentation: "#",
-        teacherExtra: ["Методичка по сетям", "Презентация про интернет и серверы", "Вопросы для обсуждения"]
+        teacherMethod: "https://docs.google.com/document/d/1oa_lSSkBeIgrK_c6k3_YSOjOZwnprXx3adRzOe7M2FA/edit?tab=t.0",
+        teacherPresentation: "https://www.figma.com/deck/kJEjKXhBgNVYhUguTLRQNO",
+        teacherExtra: []
       }
     ]
   },
