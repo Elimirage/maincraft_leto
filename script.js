@@ -218,7 +218,7 @@ function renderProgram() {
             <div class="lesson-links">
               
               ${lesson.maps.map(map => `
-                <a class="btn btn-yellow" href="${map.link}" target="_blank" rel="noopener">🗺️ Скачать карту: ${map.name}</a>
+                <a class="btn btn-yellow" href="${map.link}" target="_blank" rel="noopener">  ✨ ${map.name}</a>
               `).join("")}
             </div>
 
