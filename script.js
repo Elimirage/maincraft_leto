@@ -1,6 +1,21 @@
 const teacherLogin = "admin";
 const teacherPassword = "admin";
 
+/*
+Заменяй # на реальные ссылки.
+
+lessonLink — ссылка на урок
+testLink — ссылка на тест
+teacherMethod — ссылка на методичку
+teacherPresentation — ссылка на презентацию
+
+maps — список карт. Можно сделать 1, 2 или больше карт:
+maps: [
+  { name: "Интернет", link: "https://..." },
+  { name: "Серверная", link: "https://..." }
+]
+*/
+
 const days = [
   {
     number: 6,
@@ -12,10 +27,16 @@ const days = [
         title: "Детективное агентство СМАРТ",
         description: "Вводная миссия: дети становятся агентами, знакомятся с сюжетом, правилами и первой Minecraft-картой.",
         lessonLink: "#",
-        mapLink: "#",
+        maps: [
+          { name: "Детективное агенство", link: "https://back.ominds.online/CourseLesson/ToTask?taskId=27178&target=demo" },
+          { name: "Генерация презентаций - Gamma", link: "https://gamma.app/ru" },
+          { name: "Генерация текста - Qwen", link: "https://qwen.ai/" },
+          { name: "Генерация картинок - Raphael AI", link: "https://raphael.app/ru" }
+
+        ],
         testLink: "#",
-        teacherMethod: "#",
-        teacherPresentation: "#",
+        teacherMethod: "https://docs.google.com/document/d/195SaXnBOTM8HuS8NYPXoZVZNy4Xm5Mc8NxHzeYXzEns/edit?usp=sharing",
+        teacherPresentation: "https://www.figma.com/deck/tEyrnCB6P3Vu3Bqyvu5U45",
         teacherExtra: ["Сценарий вводного занятия", "Правила работы с картой", "Роли и сюжет агентства"]
       },
       {
@@ -23,7 +44,9 @@ const days = [
         title: "Тайна невидимых проводов: кто управляет сетью?",
         description: "Расследуем, как устройства соединяются между собой, что такое сеть и почему серверы похожи на узлы Minecraft-мира.",
         lessonLink: "#",
-        mapLink: "#",
+        maps: [
+          { name: "Интернет", link: "#" }
+        ],
         testLink: "#",
         teacherMethod: "#",
         teacherPresentation: "#",
@@ -41,7 +64,10 @@ const days = [
         title: "Кодовая магия: как слова превращаются в секреты",
         description: "Разбираем шифры, пароли и секретные сообщения. Дети учатся защищать информацию и читать цифровые подсказки.",
         lessonLink: "#",
-        mapLink: "#",
+        maps: [
+          { name: "Кодовая магия", link: "#" },
+          { name: "Секретная комната", link: "#" }
+        ],
         testLink: "#",
         teacherMethod: "#",
         teacherPresentation: "#",
@@ -52,7 +78,9 @@ const days = [
         title: "Рыбалка в сети: кто забрасывает крючок обмана?",
         description: "Агенты учатся распознавать фишинг, подозрительные ссылки и цифровые уловки мошенников.",
         lessonLink: "#",
-        mapLink: "#",
+        maps: [
+          { name: "Песок", link: "#" }
+        ],
         testLink: "#",
         teacherMethod: "#",
         teacherPresentation: "#",
@@ -70,7 +98,10 @@ const days = [
         title: "ИИ-профайлер: кто скрывается за цифровой маской?",
         description: "ИИ помогает агентам анализировать улики, искать закономерности и составлять цифровой портрет подозреваемого.",
         lessonLink: "#",
-        mapLink: "#",
+        maps: [
+          { name: "Лаборатория ИИ", link: "#" },
+          { name: "Комната улик", link: "#" }
+        ],
         testLink: "#",
         teacherMethod: "#",
         teacherPresentation: "#",
@@ -81,7 +112,9 @@ const days = [
         title: "Кодовые врата: стражи цифровой защиты",
         description: "Изучаем цифровые замки: доступы, защиту аккаунтов, проверку входа и правила безопасной авторизации.",
         lessonLink: "#",
-        mapLink: "#",
+        maps: [
+          { name: "Кодовые врата", link: "#" }
+        ],
         testLink: "#",
         teacherMethod: "#",
         teacherPresentation: "#",
@@ -99,7 +132,9 @@ const days = [
         title: "Центр контроля: как специалисты спасают сеть от атак",
         description: "Дети попадают в командный центр и узнают, как специалисты замечают угрозы и реагируют на атаки.",
         lessonLink: "#",
-        mapLink: "#",
+        maps: [
+          { name: "Центр контроля", link: "#" }
+        ],
         testLink: "#",
         teacherMethod: "#",
         teacherPresentation: "#",
@@ -110,7 +145,10 @@ const days = [
         title: "Нейросеть на страже сети",
         description: "ИИ-помощник ищет странные события, подсвечивает угрозы и помогает агентам быстрее защитить Minecraft-мир.",
         lessonLink: "#",
-        mapLink: "#",
+        maps: [
+          { name: "Нейросеть", link: "#" },
+          { name: "Защитный сервер", link: "#" }
+        ],
         testLink: "#",
         teacherMethod: "#",
         teacherPresentation: "#",
@@ -128,7 +166,9 @@ const days = [
         title: "Защитный код: резервное копирование",
         description: "Агенты узнают, зачем нужны резервные копии и как восстановить данные после цифровой катастрофы.",
         lessonLink: "#",
-        mapLink: "#",
+        maps: [
+          { name: "Резервное копирование", link: "#" }
+        ],
         testLink: "#",
         teacherMethod: "#",
         teacherPresentation: "#",
@@ -139,7 +179,10 @@ const days = [
         title: "Киберщит: битва в облаках",
         description: "Финальная миссия: дети объединяют знания, защищают облачную базу и завершают расследование агентства СМАРТ.",
         lessonLink: "#",
-        mapLink: "#",
+        maps: [
+          { name: "Киберщит", link: "#" },
+          { name: "Облачная база", link: "#" }
+        ],
         testLink: "#",
         teacherMethod: "#",
         teacherPresentation: "#",
@@ -173,25 +216,25 @@ function renderProgram() {
             <p>${lesson.description}</p>
 
             <div class="lesson-links">
-              <a class="btn btn-light" href="${lesson.lessonLink}" target="_blank">▶️ Открыть урок</a>
-              <a class="btn btn-yellow" href="${lesson.mapLink}" target="_blank">🗺️ Скачать карту</a>
+              <a class="btn btn-light" href="${lesson.lessonLink}" target="_blank" rel="noopener">▶️ Открыть урок</a>
+              ${lesson.maps.map(map => `
+                <a class="btn btn-yellow" href="${map.link}" target="_blank" rel="noopener">🗺️ Скачать карту: ${map.name}</a>
+              `).join("")}
             </div>
 
             <div class="test-box">
               <strong>📝 Тестовая часть</strong>
               <p>Здесь будет тест по уроку. Замените ссылку на Google Forms, Яндекс Форму или встроенный тест.</p>
-              <a class="btn btn-light" href="${lesson.testLink}" target="_blank">Перейти к тесту</a>
+              <a class="btn btn-light" href="${lesson.testLink}" target="_blank" rel="noopener">Перейти к тесту</a>
             </div>
 
             <div class="teacher-panel">
               <h5>👩‍🏫 Материалы для преподавателя</h5>
               <div class="lesson-links">
-                <a class="btn btn-light" href="${lesson.teacherMethod}" target="_blank">📖 Методичка</a>
-                <a class="btn btn-yellow" href="${lesson.teacherPresentation}" target="_blank">🖥️ Презентация</a>
+                <a class="btn btn-light" href="${lesson.teacherMethod}" target="_blank" rel="noopener">📖 Методичка</a>
+                <a class="btn btn-yellow" href="${lesson.teacherPresentation}" target="_blank" rel="noopener">🖥️ Презентация</a>
               </div>
-              <ul>
-                ${lesson.teacherExtra.map(item => `<li>${item}</li>`).join("")}
-              </ul>
+              <ul>${lesson.teacherExtra.map(item => `<li>${item}</li>`).join("")}</ul>
             </div>
           </section>
         `).join("")}
@@ -212,9 +255,7 @@ openLogin.addEventListener("click", () => {
   loginDialog.showModal();
 });
 
-closeLogin.addEventListener("click", () => {
-  loginDialog.close();
-});
+closeLogin.addEventListener("click", () => loginDialog.close());
 
 loginForm.addEventListener("submit", event => {
   event.preventDefault();
@@ -231,9 +272,7 @@ loginForm.addEventListener("submit", event => {
   }
 });
 
-logout.addEventListener("click", () => {
-  setTeacherMode(false);
-});
+logout.addEventListener("click", () => setTeacherMode(false));
 
 renderProgram();
 setTeacherMode(localStorage.getItem("smartTeacherMode") === "true");
