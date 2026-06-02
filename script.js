@@ -84,12 +84,15 @@ const days = [
         description: "Агенты учатся распознавать фишинг, подозрительные ссылки и цифровые уловки мошенников.",
        
         maps: [
-          { name: "Песок", link: "#" }
+          { name: "Карта - Мошенничество", link: "https://drive.google.com/file/d/1n1RDZhT1oS1yRfGO95pxDZDLl6E8IwbE/view?usp=drive_link" },
+          { name: "Тест - Осторожно, фишинг! Часть 1.", link: "https://fc-minecraft.github.io/AntiPhishing/index" },
+          { name: "Карта - Творческое задание", link: "https://drive.google.com/file/d/1kacFDCqSs9pCkFbxobFf8vqCBbP1XYch/view?usp=drive_link" },
+          { name: "Тест - Осторожно, фишинг! Часть 2.", link: "https://fc-minecraft.github.io/AntiPhishing/index2" }
         ],
         testLink: "#",
-        teacherMethod: "#",
-        teacherPresentation: "#",
-        teacherExtra: ["Методичка по фишингу", "Примеры безопасных и опасных сообщений", "Мини-игра на распознавание обмана"]
+        teacherMethod: "https://docs.google.com/document/d/1W2_zXm1yNaeB7pQdvnkKNkHYqsw-QY1xsGih6uFVkNQ/edit?tab=t.0",
+        teacherPresentation: "figma.com/embed/interstitial?embed_host=share&embed_path=%2Fdeck%2FOVZB6NW8KhagrlgljvifvI%2F%25D0%259C3%25D0%25A33%3Fembed-host%3Dshare%26kind%3Ddeck%26node-id%3D1-143%26page-selector%3D1%26theme%3Dlight%26version%3D2&theme=light&version=2",
+        teacherExtra: []
       }
     ]
   },
@@ -118,12 +121,13 @@ const days = [
         description: "Изучаем цифровые замки: доступы, защиту аккаунтов, проверку входа и правила безопасной авторизации.",
         
         maps: [
-          { name: "Кодовые врата", link: "#" }
+          { name: "Карта - Злодеи наносят удар", link: "https://drive.google.com/file/d/1Y994BoLr9lRrhw_CnDNFE_5oRskptIoy/view?usp=drive_link" },
+          { name: "Карта - Строим башни", link: "https://drive.google.com/file/d/1g6AB4B4CfmlAwhh4BzNND0WY-L30T7ru/view?usp=drive_link" }
         ],
         testLink: "#",
-        teacherMethod: "#",
-        teacherPresentation: "#",
-        teacherExtra: ["Методичка по защите аккаунтов", "Презентация про доступы", "Практика по созданию безопасного входа"]
+        teacherMethod: "https://docs.google.com/document/d/1WU4LnT48PjdNII4lVOwz8ywHCTAzKG2r_eZ5DtfycDg/edit?tab=t.0",
+        teacherPresentation: "https://www.figma.com/deck/VwTmvt9EgtDwpNT5JB5wvw/%D0%9C3%D0%A34",
+        teacherExtra: []
       }
     ]
   },
@@ -138,12 +142,14 @@ const days = [
         description: "Дети попадают в командный центр и узнают, как специалисты замечают угрозы и реагируют на атаки.",
      
         maps: [
-          { name: "Центр контроля", link: "#" }
+          { name: "Карта - Новые знакомства", link: "https://drive.google.com/file/d/1enn7148_Xhc7Sx7UEVKZGsSC2v8XwTrZ/view?usp=drive_link" },
+          { name: "Карта - Cоциальная инженерия", link: "https://drive.google.com/file/d/18RZTK9mDDXHn8BJkC8ulvG6VX0OBJU4n/view?usp=drive_link" },
+          { name: "Перейти к ресурсу Найди свою суперсилу", link: "https://fc-minecraft.github.io/AntiPhishing/index3" }
         ],
         testLink: "#",
-        teacherMethod: "#",
-        teacherPresentation: "#",
-        teacherExtra: ["Методичка про центр мониторинга", "Презентация про специалистов защиты", "Сценарий командной миссии"]
+        teacherMethod: "https://docs.google.com/document/d/1d60mEqOivUCnbKCeAyvB8WF3vlVH4v4lc8VT7LuF0PA/edit?tab=t.0",
+        teacherPresentation: "https://www.figma.com/deck/YjbjbCQ19Pa21YzjQ0q1NX",
+        teacherExtra: []
       },
       {
         emoji: "🤖",
@@ -172,12 +178,13 @@ const days = [
         description: "Агенты узнают, зачем нужны резервные копии и как восстановить данные после цифровой катастрофы.",
         
         maps: [
-          { name: "Резервное копирование", link: "#" }
+          { name: "Карта - Защита данных", link: "https://drive.google.com/file/d/1YMO_GipAQwGYohFVTS2tzEAsXbRsbfPF/view?usp=drive_link" },
+          { name: "Карта - Строительное испытание", link: "https://drive.google.com/file/d/1PDy-jRLOE965YLkHBBOFWcwhV29R5TTJ/view?usp=drive_link" },
         ],
         testLink: "#",
-        teacherMethod: "#",
-        teacherPresentation: "#",
-        teacherExtra: ["Методичка про резервное копирование", "Презентация про сохранение данных", "Практическая миссия восстановления"]
+        teacherMethod: "https://docs.google.com/document/d/1CHvS3WUqV3RmVuuNnSVOLOGGYJgnlqxPZj3Nhj-0Nbo/edit?tab=t.0",
+        teacherPresentation: "https://www.figma.com/deck/S5L8oh9fSGTIH2n4Xr14Qz",
+        teacherExtra: []
       },
       {
         emoji: "☁️",
@@ -185,13 +192,13 @@ const days = [
         description: "Финальная миссия: дети объединяют знания, защищают облачную базу и завершают расследование агентства СМАРТ.",
       
         maps: [
-          { name: "Киберщит", link: "#" },
-          { name: "Облачная база", link: "#" }
+          { name: "Карта - Битва в облаках", link: "https://drive.google.com/file/d/18oY_u0LX59YYjBphDNN34_RL1Fk7OIyh/view?usp=drive_link" },
+          { name: "Карта -  Удивительная архитектура", link: "https://drive.google.com/file/d/1_9mezPKu9nbXY_J_1CZi2QsRgaQ6QlwV/view?usp=drive_link" }
         ],
         testLink: "#",
-        teacherMethod: "#",
-        teacherPresentation: "#",
-        teacherExtra: ["Финальная методичка", "Презентация для итогового занятия", "Идеи для награждения агентов"]
+        teacherMethod: "https://docs.google.com/document/d/1U2z_GXX7t6YQbOJRYUJ2xeFNE05ERqpP6RJsm3SpGu8/edit?tab=t.0",
+        teacherPresentation: "https://www.figma.com/deck/KQ22f1rszSg3UMjunMj690",
+        teacherExtra: []
       }
     ]
   }
