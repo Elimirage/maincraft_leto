@@ -66,13 +66,17 @@ const days = [
         description: "Разбираем шифры, пароли и секретные сообщения. Дети учатся защищать информацию и читать цифровые подсказки.",
     
         maps: [
-          { name: "Кодовая магия", link: "#" },
-          { name: "Секретная комната", link: "#" }
+          { name: "Карта - Пароли", link: "https://drive.google.com/file/d/14kwbTDnPLmOzl3XGaMSQbYoJ9dZ_ZBZC/view?usp=drive_link" },
+          { name: "🔐 Перейти к ресурсу Шифрование", link: "https://fc-minecraft.github.io/Encrypt/index" },
+          { name: "🔐 Перейти к ресурсу Тест: Шифрование", link: "https://fc-minecraft.github.io/Encrypt/index2" },
+          { name: "Карта - Киберкрепость", link: "https://drive.google.com/file/d/1B2oAkAFwOz4y0Cp6O8vsCzc2axNrkUhJ/view?usp=drive_link" },
+          { name: "🗝️ Перейти к ресурсу Пароли", link: "https://fc-minecraft.github.io/PassHk/" },
+          { name: "🔐 Перейти к ресурсу Тест: Пароли", link: "https://fc-minecraft.github.io/AntiPhishing/index4.html" }
         ],
         testLink: "#",
-        teacherMethod: "#",
-        teacherPresentation: "#",
-        teacherExtra: ["Методичка по шифрам", "Презентация про пароли", "Задания с секретными сообщениями"]
+        teacherMethod: "https://docs.google.com/document/d/1suxrFW3xVLQZ0nvl4ZcuApZEs5bBw5zOD2w2tj3R5h8/edit?tab=t.0",
+        teacherPresentation: "https://www.figma.com/deck/SP8darGf93Y9F0qsd3hBVL",
+        teacherExtra: []
       },
       {
         emoji: "🎣",
