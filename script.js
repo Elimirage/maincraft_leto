@@ -37,7 +37,7 @@ const days = [
         testLink: "#",
         teacherMethod: "https://docs.google.com/document/d/195SaXnBOTM8HuS8NYPXoZVZNy4Xm5Mc8NxHzeYXzEns/edit?usp=sharing",
         teacherPresentation: "https://www.figma.com/deck/tEyrnCB6P3Vu3Bqyvu5U45",
-        teacherExtra: ["Сценарий вводного занятия", "Правила работы с картой", "Роли и сюжет агентства"]
+        teacherExtra: []
       },
       {
         emoji: "📡",
