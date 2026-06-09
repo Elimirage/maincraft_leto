@@ -107,13 +107,12 @@ const days = [
         description: "ИИ помогает агентам анализировать улики, искать закономерности и составлять цифровой портрет подозреваемого.",
       
         maps: [
-          { name: "Лаборатория ИИ", link: "#" },
-          { name: "Комната улик", link: "#" }
+          { name: "QWEN", link: "https://chat.qwen.ai/" },
         ],
         testLink: "#",
-        teacherMethod: "#",
-        teacherPresentation: "#",
-        teacherExtra: ["Сценарий ИИ-расследования", "Презентация про анализ данных", "Карточки цифровых улик"]
+        teacherMethod: "https://docs.google.com/document/d/1QqXPX_hlnS32nl-BVbPVsCk1KtsfsECmrgEa9T0uxCA/edit?usp=sharing",
+        teacherPresentation: "https://docs.google.com/presentation/d/1xoE6Gij6IzajJDSGOBY7tkv4TJRMFLHIPcrytCauYOs/edit?usp=sharing",
+        teacherExtra: []
       },
       {
         emoji: "🚪",
@@ -157,13 +156,13 @@ const days = [
         description: "ИИ-помощник ищет странные события, подсвечивает угрозы и помогает агентам быстрее защитить Minecraft-мир.",
      
         maps: [
-          { name: "Нейросеть", link: "#" },
-          { name: "Защитный сервер", link: "#" }
+          { name: "QWEN", link: "https://chat.qwen.ai/" },
+          { name: "Промты для нейросети", link: "https://docs.google.com/document/d/1iukkipzxH5JTJHlMVeGMMwd9Isl-WX2HIUx20buIgK4/edit?usp=sharing" }
         ],
         testLink: "#",
-        teacherMethod: "#",
-        teacherPresentation: "#",
-        teacherExtra: ["Сценарий урока про аномалии", "Презентация про ИИ в безопасности", "Задания на поиск подозрительных событий"]
+        teacherMethod: "https://docs.google.com/document/d/1GdJCe3pQ5fjsU2zwINy3vIg42p5D27GTpqo--molm3g/edit?usp=sharing",
+        teacherPresentation: "https://docs.google.com/presentation/d/12E0vrs-8x-Q7xv-WAx_LXidSDqxw5ON5IncECvONFwg/edit?usp=sharing",
+        teacherExtra: []
       }
     ]
   },
