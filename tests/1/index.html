@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Тест · Нейросеть на страже сети</title>
+  <link rel="stylesheet" href="./test.css" />
+</head>
+<body>
+  <main class="app">
+    <section id="startScreen" class="screen card active">
+      <div class="badge">Дело №0816</div>
+      <h1>Нейросеть на страже сети</h1>
+      <p class="lead">Проверь, готов ли ты стать агентом кибербезопасности СМАРТ.</p>
+      <label class="input-label" for="studentName">Имя агента</label>
+      <input id="studentName" type="text" placeholder="Например: Агент СМАРТ" />
+      <button id="startBtn" class="btn primary">🚀 Начать тест</button>
+      <p class="hint">10 вопросов. В конце появятся баллы, уровень агента и кнопки действий.</p>
+    </section>
+
+    <section id="quizScreen" class="screen card">
+      <div class="topline"><span id="progressText"></span><span id="scoreText"></span></div>
+      <div class="progress"><div id="progressBar"></div></div>
+      <h2 id="questionTitle"></h2>
+      <p id="questionText" class="question-text"></p>
+      <div id="answers" class="answers"></div>
+      <div id="feedback" class="feedback hidden"></div>
+      <div class="actions"><button id="nextBtn" class="btn primary hidden">Дальше ➜</button></div>
+    </section>
+
+    <section id="resultScreen" class="screen card">
+      <div class="badge">Миссия завершена</div>
+      <h1 id="resultTitle">Результат</h1>
+      <div id="finalScore" class="final-score"></div>
+      <p id="resultMessage" class="lead"></p>
+      <div class="result-box">
+        <h3>Что можно сделать дальше?</h3>
+        <button id="retryBtn" class="btn primary">🔁 Пройти ещё раз</button>
+        <button id="copyBtn" class="btn secondary">📋 Скопировать результат</button>
+        <button id="saveBtn" class="btn secondary">💾 Скачать результат</button>
+        <a class="btn secondary" href="../../">🏠 Вернуться к урокам</a>
+      </div>
+      <div id="copyStatus" class="hint"></div>
+    </section>
+  </main>
+  <script src="./test.js"></script>
+</body>
+</html>
