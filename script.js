@@ -34,7 +34,7 @@ const days = [
           { name: "Генерация картинок - Raphael AI", link: "https://raphael.app/ru" }
 
         ],
-        testLink: "#",
+        testLink: "./tests/1/",
         teacherMethod: "https://docs.google.com/document/d/195SaXnBOTM8HuS8NYPXoZVZNy4Xm5Mc8NxHzeYXzEns/edit?usp=sharing",
         teacherPresentation: "https://www.figma.com/deck/tEyrnCB6P3Vu3Bqyvu5U45",
         teacherExtra: []
