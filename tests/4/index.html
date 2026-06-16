@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Тест · Кодовые врата</title>
+  <link rel="stylesheet" href="./test.css" />
+</head>
+<body>
+  <main class="app">
+    <section id="startScreen" class="screen card active">
+      <div class="badge">Кибербезопасность</div>
+      <h1>Кодовые врата</h1>
+      <p class="lead">Проверь, как ты понял аутентификацию, авторизацию, MFA и цифровую защиту.</p>
+
+      <label class="input-label" for="studentName">Имя агента</label>
+      <input id="studentName" type="text" placeholder="Например: Саша" />
+
+      <button id="startBtn" class="btn primary">🚪 Открыть врата</button>
+      <p class="hint">10 вопросов · в конце появятся баллы и уровень защитника.</p>
+    </section>
+
+    <section id="quizScreen" class="screen card">
+      <div class="topline">
+        <span id="progressText">Вопрос 1 / 10</span>
+        <span id="scoreText">0 баллов</span>
+      </div>
+      <div class="progress"><div id="progressBar"></div></div>
+
+      <h2 id="questionTitle"></h2>
+      <p id="questionText" class="question-text"></p>
+      <div id="answers" class="answers"></div>
+      <div id="feedback" class="feedback hidden"></div>
+
+      <div class="actions">
+        <button id="nextBtn" class="btn primary hidden">Дальше ➜</button>
+      </div>
+    </section>
+
+    <section id="resultScreen" class="screen card">
+      <div class="badge">Миссия завершена</div>
+      <h1 id="resultTitle">Результат</h1>
+      <div id="finalScore" class="final-score"></div>
+      <p id="resultMessage" class="lead"></p>
+
+      <div class="result-box">
+        <h3>Что можно сделать дальше?</h3>
+        <button id="retryBtn" class="btn primary">🔁 Пройти ещё раз</button>
+        <button id="copyBtn" class="btn secondary">📋 Скопировать результат</button>
+        <a class="btn secondary" href="../../">🏠 Вернуться к урокам</a>
+      </div>
+      <div id="copyStatus" class="hint"></div>
+    </section>
+  </main>
+
+  <script src="./test.js"></script>
+</body>
+</html>

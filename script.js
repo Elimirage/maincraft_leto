@@ -70,10 +70,9 @@ const days = [
           { name: "🔐 Перейти к ресурсу Шифрование", link: "https://fc-minecraft.github.io/Encrypt/index" },
           { name: "🔐 Перейти к ресурсу Тест: Шифрование", link: "https://fc-minecraft.github.io/Encrypt/index2" },
           { name: "Карта - Киберкрепость", link: "https://drive.google.com/file/d/1B2oAkAFwOz4y0Cp6O8vsCzc2axNrkUhJ/view?usp=drive_link" },
-          { name: "🗝️ Перейти к ресурсу Пароли", link: "https://fc-minecraft.github.io/PassHk/" },
-          { name: "🔐 Перейти к ресурсу Тест: Пароли", link: "https://fc-minecraft.github.io/AntiPhishing/index4.html" }
+          { name: "🗝️ Перейти к ресурсу Пароли", link: "https://fc-minecraft.github.io/PassHk/" }
         ],
-        testLink: "#",
+        testLink: "https://fc-minecraft.github.io/AntiPhishing/index4.html",
         teacherMethod: "https://docs.google.com/document/d/1suxrFW3xVLQZ0nvl4ZcuApZEs5bBw5zOD2w2tj3R5h8/edit?tab=t.0",
         teacherPresentation: "https://www.figma.com/deck/SP8darGf93Y9F0qsd3hBVL",
         teacherExtra: []
@@ -86,10 +85,10 @@ const days = [
         maps: [
           { name: "Карта - Мошенничество", link: "https://drive.google.com/file/d/1n1RDZhT1oS1yRfGO95pxDZDLl6E8IwbE/view?usp=drive_link" },
           { name: "Тест - Осторожно, фишинг! Часть 1.", link: "https://fc-minecraft.github.io/AntiPhishing/index" },
-          { name: "Карта - Творческое задание", link: "https://drive.google.com/file/d/1kacFDCqSs9pCkFbxobFf8vqCBbP1XYch/view?usp=drive_link" },
-          { name: "Тест - Осторожно, фишинг! Часть 2.", link: "https://fc-minecraft.github.io/AntiPhishing/index2" }
+          { name: "Карта - Творческое задание", link: "https://drive.google.com/file/d/1kacFDCqSs9pCkFbxobFf8vqCBbP1XYch/view?usp=drive_link" }
+          
         ],
-        testLink: "#",
+        testLink: "https://fc-minecraft.github.io/AntiPhishing/index2",
         teacherMethod: "https://docs.google.com/document/d/1W2_zXm1yNaeB7pQdvnkKNkHYqsw-QY1xsGih6uFVkNQ/edit?tab=t.0",
         teacherPresentation: "figma.com/embed/interstitial?embed_host=share&embed_path=%2Fdeck%2FOVZB6NW8KhagrlgljvifvI%2F%25D0%259C3%25D0%25A33%3Fembed-host%3Dshare%26kind%3Ddeck%26node-id%3D1-143%26page-selector%3D1%26theme%3Dlight%26version%3D2&theme=light&version=2",
         teacherExtra: []
@@ -109,7 +108,7 @@ const days = [
         maps: [
           { name: "QWEN", link: "https://chat.qwen.ai/" },
         ],
-        testLink: "#",
+        testLink: "./tests/3/",
         teacherMethod: "https://docs.google.com/document/d/1QqXPX_hlnS32nl-BVbPVsCk1KtsfsECmrgEa9T0uxCA/edit?usp=sharing",
         teacherPresentation: "https://docs.google.com/presentation/d/1xoE6Gij6IzajJDSGOBY7tkv4TJRMFLHIPcrytCauYOs/edit?usp=sharing",
         teacherExtra: []
@@ -123,7 +122,7 @@ const days = [
           { name: "Карта - Злодеи наносят удар", link: "https://drive.google.com/file/d/1Y994BoLr9lRrhw_CnDNFE_5oRskptIoy/view?usp=drive_link" },
           { name: "Карта - Строим башни", link: "https://drive.google.com/file/d/1g6AB4B4CfmlAwhh4BzNND0WY-L30T7ru/view?usp=drive_link" }
         ],
-        testLink: "#",
+        testLink: "./tests/4/",
         teacherMethod: "https://docs.google.com/document/d/1WU4LnT48PjdNII4lVOwz8ywHCTAzKG2r_eZ5DtfycDg/edit?tab=t.0",
         teacherPresentation: "https://www.figma.com/deck/VwTmvt9EgtDwpNT5JB5wvw/%D0%9C3%D0%A34",
         teacherExtra: []
@@ -145,7 +144,7 @@ const days = [
           { name: "Карта - Cоциальная инженерия", link: "https://drive.google.com/file/d/18RZTK9mDDXHn8BJkC8ulvG6VX0OBJU4n/view?usp=drive_link" },
           { name: "Перейти к ресурсу Найди свою суперсилу", link: "https://fc-minecraft.github.io/AntiPhishing/index3" }
         ],
-        testLink: "#",
+        testLink: "./tests/5/",
         teacherMethod: "https://docs.google.com/document/d/1d60mEqOivUCnbKCeAyvB8WF3vlVH4v4lc8VT7LuF0PA/edit?tab=t.0",
         teacherPresentation: "https://www.figma.com/deck/YjbjbCQ19Pa21YzjQ0q1NX",
         teacherExtra: []
