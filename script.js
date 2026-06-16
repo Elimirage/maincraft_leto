@@ -158,7 +158,7 @@ const days = [
           { name: "QWEN", link: "https://chat.qwen.ai/" },
           { name: "Промты для нейросети", link: "https://docs.google.com/document/d/1iukkipzxH5JTJHlMVeGMMwd9Isl-WX2HIUx20buIgK4/edit?usp=sharing" }
         ],
-        testLink: "#",
+        testLink: "./tests/6/",
         teacherMethod: "https://docs.google.com/document/d/1GdJCe3pQ5fjsU2zwINy3vIg42p5D27GTpqo--molm3g/edit?usp=sharing",
         teacherPresentation: "https://docs.google.com/presentation/d/12E0vrs-8x-Q7xv-WAx_LXidSDqxw5ON5IncECvONFwg/edit?usp=sharing",
         teacherExtra: []
@@ -179,7 +179,7 @@ const days = [
           { name: "Карта - Защита данных", link: "https://drive.google.com/file/d/1YMO_GipAQwGYohFVTS2tzEAsXbRsbfPF/view?usp=drive_link" },
           { name: "Карта - Строительное испытание", link: "https://drive.google.com/file/d/1PDy-jRLOE965YLkHBBOFWcwhV29R5TTJ/view?usp=drive_link" },
         ],
-        testLink: "#",
+        testLink: "./tests/7/",
         teacherMethod: "https://docs.google.com/document/d/1CHvS3WUqV3RmVuuNnSVOLOGGYJgnlqxPZj3Nhj-0Nbo/edit?tab=t.0",
         teacherPresentation: "https://www.figma.com/deck/S5L8oh9fSGTIH2n4Xr14Qz",
         teacherExtra: []
@@ -193,7 +193,7 @@ const days = [
           { name: "Карта - Битва в облаках", link: "https://drive.google.com/file/d/18oY_u0LX59YYjBphDNN34_RL1Fk7OIyh/view?usp=drive_link" },
           { name: "Карта -  Удивительная архитектура", link: "https://drive.google.com/file/d/1_9mezPKu9nbXY_J_1CZi2QsRgaQ6QlwV/view?usp=drive_link" }
         ],
-        testLink: "#",
+        testLink: "./tests/8/",
         teacherMethod: "https://docs.google.com/document/d/1U2z_GXX7t6YQbOJRYUJ2xeFNE05ERqpP6RJsm3SpGu8/edit?tab=t.0",
         teacherPresentation: "https://www.figma.com/deck/KQ22f1rszSg3UMjunMj690",
         teacherExtra: []

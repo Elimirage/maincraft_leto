@@ -1,14 +1,15 @@
 :root{
-  --bg1:#14001f;
-  --bg2:#3b126c;
+  --bg1:#10001f;
+  --bg2:#2b0a5f;
   --purple:#8a3ffc;
-  --pink:#ff63d8;
+  --purple2:#c084fc;
+  --blue:#37d5ff;
   --green:#67ff98;
   --red:#ff4d5e;
   --yellow:#ffd447;
-  --white:#fff;
-  --muted:#eadbff;
-  --border:rgba(255,99,216,.42);
+  --white:#ffffff;
+  --muted:#dac9ff;
+  --border:rgba(192,132,252,.45);
 }
 *{box-sizing:border-box}
 body{
@@ -17,8 +18,8 @@ body{
   font-family:Arial, Helvetica, sans-serif;
   color:var(--white);
   background:
-    radial-gradient(circle at 10% 15%, rgba(255,99,216,.25), transparent 28%),
-    radial-gradient(circle at 88% 20%, rgba(255,212,71,.18), transparent 24%),
+    radial-gradient(circle at 15% 15%, rgba(138,63,252,.36), transparent 28%),
+    radial-gradient(circle at 85% 20%, rgba(55,213,255,.18), transparent 24%),
     linear-gradient(135deg,var(--bg1),var(--bg2));
   display:grid;
   place-items:center;
@@ -32,37 +33,38 @@ body:before{
     linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
   background-size:42px 42px;
+  mask-image:linear-gradient(to bottom, transparent, black 12%, black 88%, transparent);
   pointer-events:none;
 }
 .app{width:min(980px,100%); position:relative; z-index:1}
 .card{
   display:none;
-  background:linear-gradient(180deg,rgba(42,12,78,.94),rgba(12,4,24,.96));
+  background:linear-gradient(180deg,rgba(32,13,72,.94),rgba(10,5,26,.96));
   border:2px solid var(--border);
   border-radius:30px;
   padding:34px;
-  box-shadow:0 24px 80px rgba(0,0,0,.45), inset 0 0 50px rgba(255,99,216,.10);
+  box-shadow:0 24px 80px rgba(0,0,0,.45), inset 0 0 50px rgba(138,63,252,.12);
 }
 .card.active{display:block}
 .badge{
   display:inline-flex;
   padding:10px 16px;
   border-radius:999px;
-  background:rgba(255,99,216,.12);
+  background:rgba(138,63,252,.18);
   border:1px solid var(--border);
-  color:#ffc8f4;
+  color:var(--purple2);
   font-weight:900;
   text-transform:uppercase;
   letter-spacing:.06em;
 }
 h1{
   margin:18px 0 10px;
-  font-size:clamp(42px,7vw,76px);
+  font-size:clamp(38px,7vw,74px);
   line-height:.95;
   text-transform:uppercase;
   text-shadow:0 6px 0 rgba(0,0,0,.28);
 }
-h2{font-size:clamp(28px,5vw,46px); margin:22px 0 12px}
+h2{font-size:clamp(28px,5vw,48px); margin:22px 0 12px}
 .lead,.question-text{font-size:20px; line-height:1.55; color:var(--muted)}
 .input-label{display:block; margin-top:24px; margin-bottom:8px; font-weight:900}
 input{
@@ -95,9 +97,9 @@ input:focus{border-color:var(--yellow); box-shadow:0 0 0 4px rgba(255,212,71,.13
 .secondary{background:rgba(255,255,255,.08); color:#fff; border:2px solid var(--border)}
 #startBtn{margin-top:22px}
 .hint{color:var(--muted); margin-top:14px}
-.topline{display:flex; justify-content:space-between; gap:12px; font-weight:900; color:#ffc8f4}
+.topline{display:flex; justify-content:space-between; gap:12px; font-weight:900; color:var(--purple2)}
 .progress{height:12px; background:rgba(255,255,255,.08); border-radius:999px; overflow:hidden; margin-top:12px}
-#progressBar{height:100%; width:0; background:linear-gradient(90deg,var(--pink),var(--yellow)); transition:.3s ease}
+#progressBar{height:100%; width:0; background:linear-gradient(90deg,var(--purple),var(--blue),var(--yellow)); transition:.3s ease}
 .answers{display:grid; gap:12px; margin-top:24px}
 .answer{
   width:100%;
@@ -110,7 +112,7 @@ input:focus{border-color:var(--yellow); box-shadow:0 0 0 4px rgba(255,212,71,.13
   font-size:18px;
   cursor:pointer;
 }
-.answer:hover{background:rgba(255,99,216,.14)}
+.answer:hover{background:rgba(138,63,252,.18)}
 .answer.correct{border-color:var(--green); background:rgba(103,255,152,.13)}
 .answer.wrong{border-color:var(--red); background:rgba(255,77,94,.13)}
 .answer.disabled{pointer-events:none}

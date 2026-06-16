@@ -11,13 +11,13 @@
     <section id="startScreen" class="screen card active">
       <div class="badge">Дело №0816</div>
       <h1>Нейросеть на страже сети</h1>
-      <p class="lead">Проверь, как ты понял аномалии, работу ИИ, фишинг и защиту Minecraft-сервера.</p>
+      <p class="lead">Проверь, умеешь ли ты находить аномалии, распознавать фишинг и работать с ИИ как настоящий агент СМАРТ.</p>
 
       <label class="input-label" for="studentName">Имя агента</label>
       <input id="studentName" type="text" placeholder="Например: Маша" />
 
-      <button id="startBtn" class="btn primary">🤖 Начать расследование</button>
-      <p class="hint">10 вопросов · в конце появятся баллы и уровень агента СМАРТ.</p>
+      <button id="startBtn" class="btn primary">🤖 Начать тест</button>
+      <p class="hint">10 вопросов · в конце появятся баллы и уровень агента.</p>
     </section>
 
     <section id="quizScreen" class="screen card">
@@ -29,7 +29,9 @@
 
       <h2 id="questionTitle"></h2>
       <p id="questionText" class="question-text"></p>
+
       <div id="answers" class="answers"></div>
+
       <div id="feedback" class="feedback hidden"></div>
 
       <div class="actions">
@@ -49,6 +51,7 @@
         <button id="copyBtn" class="btn secondary">📋 Скопировать результат</button>
         <a class="btn secondary" href="../../">🏠 Вернуться к урокам</a>
       </div>
+
       <div id="copyStatus" class="hint"></div>
     </section>
   </main>
