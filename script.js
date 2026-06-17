@@ -203,6 +203,8 @@ const days = [
 ];
 
 const daysRoot = document.querySelector("#days");
+let currentDay = Number(localStorage.getItem("smartCurrentDay")) || 6;
+
 const loginDialog = document.querySelector("#loginDialog");
 const openLogin = document.querySelector("#openLogin");
 const closeLogin = document.querySelector("#closeLogin");
@@ -211,7 +213,8 @@ const loginError = document.querySelector("#loginError");
 const logout = document.querySelector("#logout");
 
 function renderProgram() {
-  daysRoot.innerHTML = days.map(day => `
+  const visibleDays = days.filter(day => day.number === currentDay);
+  daysRoot.innerHTML = visibleDays.map(day => `
     <article class="day-card">
       <div class="day-banner" data-icon="${day.icon}">
         <span class="badge">День ${day.number} · 2 урока</span>
@@ -286,3 +289,29 @@ logout.addEventListener("click", () => setTeacherMode(false));
 
 renderProgram();
 setTeacherMode(localStorage.getItem("smartTeacherMode") === "true");
+
+
+function updateDayTabs() {
+  document
+    .querySelectorAll(".day-tab")
+    .forEach(tab => {
+      tab.classList.toggle(
+        "active",
+        Number(tab.dataset.day) === currentDay
+      );
+    });
+}
+
+document
+  .querySelectorAll(".day-tab")
+  .forEach(button => {
+    button.addEventListener("click", () => {
+      currentDay = Number(button.dataset.day);
+      localStorage.setItem("smartCurrentDay", String(currentDay));
+      updateDayTabs();
+      renderProgram();
+      document.querySelector("#program").scrollIntoView({ behavior: "smooth" });
+    });
+  });
+
+updateDayTabs();
